@@ -70,7 +70,7 @@
 			"animationEnabled":"true",
 			"timelineColor3":"0x2a6a61",
 			"timelineColor":"0x00bda4"}},
-	"TransitionIdCounter":"81",
+	"TransitionIdCounter":"94",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
@@ -107,6 +107,7 @@
 	"pixelsPerMs":"0.2",
 	"usedBOM":"false",
 	"nextElementColorIndex":"13",
-	"stage-Default Timeline_playhead_ms":"1000",
-	"CompZoomFactor":"50",
+	"stage-Default Timeline_playhead_ms":"2500",
+	"stage-Default Timeline_mark_ms":"-1",
+	"CompZoomFactor":"100",
 	"viewStartY":"0"}
