@@ -31,6 +31,9 @@ var symbols = {
          "${_content} > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)": [
             ["transform", "translateX", '-967px'],
             ["transform", "translateY", '0px']
+         ],
+         "${_content} > div:nth-child(2) > div:nth-child(1) > ul:nth-child(2)": [
+            ["style", "opacity", '0']
          ]
       }
    },
@@ -38,12 +41,13 @@ var symbols = {
       "Default Timeline": {
          fromState: "Base State",
          toState: "",
-         duration: 2000,
+         duration: 2500,
          autoPlay: true,
          timeline: [
             { id: "eid22", tween: [ "style", "${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)", "opacity", '1', { fromValue: '0'}], position: 0, duration: 1000 },
             { id: "eid36", tween: [ "transform", "body > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)", "scaleY", '1', { fromValue: '0.3619'}], position: 0, duration: 1000 },
             { id: "eid40", tween: [ "transform", "${_content} > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)", "translateY", '0px', { fromValue: '0px'}], position: 0, duration: 0 },
+            { id: "eid47", tween: [ "style", "${_content} > div:nth-child(2) > div:nth-child(1) > ul:nth-child(2)", "opacity", '1', { fromValue: '0'}], position: 0, duration: 2500 },
             { id: "eid41", tween: [ "transform", "${_content} > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)", "translateX", '-60px', { fromValue: '-967px'}], position: 0, duration: 2000 },
             { id: "eid35", tween: [ "transform", "body > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)", "scaleX", '1', { fromValue: '0.3619'}], position: 0, duration: 1000 }         ]
       }
