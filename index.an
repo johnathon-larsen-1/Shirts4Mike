@@ -24,11 +24,21 @@
 			"animationEnabled":"true",
 			"timelineColor3":"0x295a6d",
 			"timelineColor":"0x008dc8"},
+		"element_body > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)":{
+			"timelineColor2":"0xd35d6e",
+			"animationEnabled":"true",
+			"timelineColor3":"0x7e4b52",
+			"timelineColor":"0xfb657a"},
 		"element_${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)":{
 			"timelineColor2":"0x168c84",
 			"animationEnabled":"false",
 			"timelineColor3":"0x2a605c",
 			"timelineColor":"0x00a096"},
+		"element_body > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)":{
+			"timelineColor2":"0xb099ce",
+			"animationEnabled":"true",
+			"timelineColor3":"0x70657c",
+			"timelineColor":"0xceaef4"},
 		"element_${_content} > div:nth-child(2) > div:nth-child(1) > ul:nth-child(2)":{
 			"timelineColor2":"0x5a558a",
 			"animationEnabled":"true",
@@ -49,14 +59,18 @@
 			"animationEnabled":"false",
 			"timelineColor3":"0x2a6a61",
 			"timelineColor":"0x00bda4"}},
-	"TransitionIdCounter":"48",
+	"TransitionIdCounter":"63",
 	"ModelData":"{\
 \"stage\": {\
    \"timelines\": {\
       \"Default Timeline\": {\
             \"ElementKeyframes\": {\
+                \"${_content} > div:nth-child(1)\": [], \
                 \"${_content} > div:nth-child(2) > div:nth-child(1) > h2:nth-child(1)\": [], \
+                \"${_content} > div:nth-child(2)\": [], \
                 \"${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2) > a:nth-child(1)\": [], \
+                \"body > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(2) > a:nth-child(1)\": [], \
+                \"body > div:nth-child(1) > div:nth-child(1) > ul:nth-child(2) > li:nth-child(1) > a:nth-child(1)\": [], \
                 \"body > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1) > a:nth-child(1)\": [], \
                 \"${_content} > div:nth-child(2) > div:nth-child(1) > ul:nth-child(2)\": [], \
                 \"${_content} > div:nth-child(1) > div:nth-child(1) > img:nth-child(1)\": [], \
@@ -81,7 +95,7 @@
 	"StageZoomFactor":"100",
 	"pixelsPerMs":"0.2",
 	"usedBOM":"false",
-	"nextElementColorIndex":"10",
+	"nextElementColorIndex":"12",
 	"stage-Default Timeline_playhead_ms":"2500",
-	"CompZoomFactor":"100",
+	"CompZoomFactor":"50",
 	"viewStartY":"0"}
