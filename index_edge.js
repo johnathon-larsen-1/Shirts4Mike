@@ -28,15 +28,15 @@ var symbols = {
       },
    states: {
       "Base State": {
-         "body > div:nth-child(1)": [
-            ["transform", "translateX", '-2px']
-         ],
          "body > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)": [
             ["transform", "scaleX", '0.3619'],
             ["transform", "scaleY", '0.3619']
          ],
+         "body > div:nth-child(1)": [
+            ["transform", "translateX", '-2px']
+         ],
          "${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)": [
-            ["style", "opacity", '1']
+            ["style", "opacity", '0']
          ]
       }
    },
@@ -48,8 +48,7 @@ var symbols = {
          autoPlay: true,
          timeline: [
             { id: "eid35", tween: [ "transform", "body > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)", "scaleX", '1', { fromValue: '0.3619'}], position: 0, duration: 1000 },
-            { id: "eid37", tween: [ "style", "${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)", "opacity", '1', { fromValue: '1'}], position: 0, duration: 0 },
-            { id: "eid38", tween: [ "style", "${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)", "opacity", '1', { fromValue: '1'}], position: 1000, duration: 0 },
+            { id: "eid22", tween: [ "style", "${_content} > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)", "opacity", '1', { fromValue: '0'}], position: 0, duration: 1000 },
             { id: "eid36", tween: [ "transform", "body > div:nth-child(1) > div:nth-child(1) > h1:nth-child(1)", "scaleY", '1', { fromValue: '0.3619'}], position: 0, duration: 1000 }         ]
       }
    }
