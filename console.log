@@ -6,3 +6,19 @@ Message: Could not connect to Typekit Free Fonts Families API
 Source: archive://main-optimized.js
 Line: 949
 -----------------------
+Message: Reflow Startup: 1726 ms
+Source: archive://main-optimized.js
+Line: 606
+-----------------------
+Message: Could not connect to Typekit Free Fonts Families API
+Source: archive://main-optimized.js
+Line: 949
+-----------------------
+Message: Reflow Startup: 1610 ms
+Source: archive://main-optimized.js
+Line: 606
+-----------------------
+Message: Could not connect to Typekit Free Fonts Families API
+Source: archive://main-optimized.js
+Line: 949
+-----------------------
